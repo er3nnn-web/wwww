@@ -1,0 +1,4 @@
+local hrp = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
+while true do
+    hrp.CFrame = hrp.CFrame * CFrame.Angles(0, math.rad(150), 0) 
+end
