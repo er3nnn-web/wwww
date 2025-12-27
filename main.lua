@@ -38,6 +38,7 @@ local Tab = Window:Tab({
     Title = "Ana",
     Icon = "", -- optional
     Locked = false,
+	Window:SetToggleKey(Enum.KeyCode.Insert)
 })
 local Button = Tab:Button({
     Title = "Infinite Yield!",
